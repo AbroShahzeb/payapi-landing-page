@@ -1,4 +1,6 @@
+import { Footer } from "../../layout/footer";
 import { AboutUs } from "./components/aboutUs";
+import { CTA } from "./components/CTA";
 import { Features } from "./components/features";
 import { Hero } from "./components/hero";
 
@@ -8,6 +10,8 @@ export const Home = () => {
       <Hero />
       <AboutUs />
       <Features />
+      <CTA />
+      <Footer />
     </main>
   );
 };
