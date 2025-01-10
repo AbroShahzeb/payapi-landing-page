@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Public Sans", sans-serif;
+    src: url("./assets/fonts/public-sans/PublicSans-italic-VariableFont_wght.ttf")
+      format("truetype");
+    font-style: italic;
+    font-weight: 100 900;
+  }
+
+  @font-face {
+    font-family: "Public Sans", sans-serif;
+    src: url("./assets/fonts/public-sans/PublicSans-VariableFont_wght.ttf")
+      format("truetype");
+    font-style: normal;
+    font-weight: 100 900;
+  }
+
+  @font-face {
+    font-family: "DM Serif Display";
+    src: url("./assets/fonts/dm-serif-display/DMSerifDisplay-italic.ttf")
+      format("truetype");
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "DM Serif Display";
+    src: url("./assets/fonts/dm-serif-display/DMSerifDisplay-Regular.ttf")
+      format("truetype");
+    font-style: normal;
+    font-weight: 400;
+  }
+}
