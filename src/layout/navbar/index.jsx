@@ -5,12 +5,12 @@ import { Button } from "../../generalComponents/Button";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-10 relative z-30">
-      <div>
+    <nav className="flex items-center justify-between px-6 py-10 lg:pt-[45px] relative z-30 lg:max-w-[1110px] lg:mx-auto">
+      <div className="lg:mr-16">
         <img src={logo} alt="PayAPI logo" />
       </div>
 
-      <ul className="hidden md:flex items-center gap-10 text-secondary-san-juan-blue/70 font-bold text-[15px] leading-normal">
+      <ul className="hidden md:flex items-center gap-10 text-secondary-san-juan-blue/70 font-bold text-[15px] leading-normal lg:mr-auto">
         <li>Pricing</li>
         <li>About</li>
         <li>Contact</li>

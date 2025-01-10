@@ -6,9 +6,9 @@ import iconConsumerPayments from "../../../assets/home/desktop/icon-consumer-pay
 
 export const Features = () => {
   return (
-    <section className="py-20 pt-6">
-      <div>
-        <div className="md:w-[410px] md:mx-auto">
+    <section className="py-20 pt-6 lg:py-[100px] lg:max-w-[1110px] lg:mx-auto">
+      <div className="lg:flex lg:items-center lg:gap-[100px]">
+        <div className="md:w-[410px] md:mx-auto lg:flex-1">
           <img
             src={illustrationEasyToImplement}
             alt="Easy Implementation Illustration"
@@ -16,19 +16,19 @@ export const Features = () => {
           />
         </div>
 
-        <div className="-mt-10 px-6 md:px-0 md:max-w-[573px] md:mx-auto">
-          <h2 className="text-[32px] leading-[36px] md:text-[48px] md:leading-[56px] md:tracking-[-0.369px] font-dm-serif text-center text-secondary-san-juan-blue">
+        <div className="-mt-10 px-6 md:px-0 md:max-w-[573px] md:mx-auto lg:flex-1 lg:m-0 ">
+          <h2 className="text-[32px] leading-[36px] md:text-[48px] md:leading-[56px] md:tracking-[-0.369px] font-dm-serif text-center text-secondary-san-juan-blue lg:text-left">
             Easy to implement
           </h2>
-          <p className="mt-4 md:mt-6 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center">
+          <p className="mt-4 md:mt-6 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center lg:text-left">
             Our API comes with just a few lines of code. You’ll be up and
             running in no time. We built our documentation page to integrate
             payments functionality with ease.
           </p>
         </div>
       </div>
-      <div className="mt-20">
-        <div className="md:w-[400px] md:mx-auto">
+      <div className="mt-20 lg:flex lg:flex-row-reverse lg:items-center lg:gap-[100px]">
+        <div className="md:w-[400px] md:mx-auto lg:flex-1 lg:w-auto">
           <img
             src={illustrationSimpleUI}
             alt="Simple UI Illustration"
@@ -36,18 +36,18 @@ export const Features = () => {
           />
         </div>
 
-        <div className="px-6 md:px-0 md:max-w-[573px] md:mx-auto">
-          <h2 className="text-[32px] leading-[36px]  md:text-[48px] md:leading-[56px] md:tracking-[-0.369px]  font-dm-serif text-center text-secondary-san-juan-blue">
+        <div className="px-6 md:px-0 md:max-w-[573px] md:mx-auto lg:flex-1 ">
+          <h2 className="text-[32px] leading-[36px]  md:text-[48px] md:leading-[56px] md:tracking-[-0.369px]  font-dm-serif text-center text-secondary-san-juan-blue lg:text-left">
             Simple UI & UX
           </h2>
-          <p className="mt-4 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center">
+          <p className="mt-4 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center lg:text-left">
             Our pre-built form is easy to integrate in your app or website’s
             checkout flow and designed to optimize conversion.
           </p>
         </div>
       </div>
 
-      <div className="mt-20 px-6 flex flex-col gap-12 md:flex-row md:px-10 md:gap-[10px] md:mt-[100px]">
+      <div className="mt-20 px-6 flex flex-col gap-12 md:flex-row md:px-10 md:gap-[10px] md:mt-[100px] lg:px-0">
         {/* FEATURE 1 START */}
         <div className="flex flex-col items-center text-center gap-8">
           <div>

@@ -2,12 +2,12 @@ import { Button } from "../../../generalComponents/Button";
 
 export const CTA = () => {
   return (
-    <section className="px-6  pb-20 md:pb-[100px] md:mt-5">
-      <div className="flex flex-col gap-8">
+    <section className="px-6  pb-20 md:pb-[100px] md:mt-5 lg:max-w-[1110px] lg:mx-auto lg:px-0">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <h2 className="text-[32px] leading-[36px]  md:text-[48px] md:leading-[56px] md:tracking-[-0.369px] font-dm-serif text-center text-secondary-san-juan-blue">
           Ready to Start?
         </h2>
-        <div className="flex flex-col gap-4 md:w-[445px] md:mx-auto">
+        <div className="flex flex-col gap-4 md:w-[445px] md:mx-auto lg:mx-0">
           <div className="flex flex-col gap-4 md:flex-row md:w-full md:relative md:h-[48px]">
             <input
               type="text"
