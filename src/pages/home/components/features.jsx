@@ -8,7 +8,7 @@ export const Features = () => {
   return (
     <section className="py-20 pt-6">
       <div>
-        <div>
+        <div className="md:w-[410px] md:mx-auto">
           <img
             src={illustrationEasyToImplement}
             alt="Easy Implementation Illustration"
@@ -16,11 +16,11 @@ export const Features = () => {
           />
         </div>
 
-        <div className="-mt-10 px-6">
-          <h2 className="text-[32px] leading-[36px] font-dm-serif text-center text-secondary-san-juan-blue">
+        <div className="-mt-10 px-6 md:px-0 md:max-w-[573px] md:mx-auto">
+          <h2 className="text-[32px] leading-[36px] md:text-[48px] md:leading-[56px] md:tracking-[-0.369px] font-dm-serif text-center text-secondary-san-juan-blue">
             Easy to implement
           </h2>
-          <p className="mt-4 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center">
+          <p className="mt-4 md:mt-6 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center">
             Our API comes with just a few lines of code. You’ll be up and
             running in no time. We built our documentation page to integrate
             payments functionality with ease.
@@ -28,7 +28,7 @@ export const Features = () => {
         </div>
       </div>
       <div className="mt-20">
-        <div>
+        <div className="md:w-[400px] md:mx-auto">
           <img
             src={illustrationSimpleUI}
             alt="Simple UI Illustration"
@@ -36,8 +36,8 @@ export const Features = () => {
           />
         </div>
 
-        <div className="px-6">
-          <h2 className="text-[32px] leading-[36px] font-dm-serif text-center text-secondary-san-juan-blue">
+        <div className="px-6 md:px-0 md:max-w-[573px] md:mx-auto">
+          <h2 className="text-[32px] leading-[36px]  md:text-[48px] md:leading-[56px] md:tracking-[-0.369px]  font-dm-serif text-center text-secondary-san-juan-blue">
             Simple UI & UX
           </h2>
           <p className="mt-4 text-secondary-light-san-juan-blue text-[15px] leading-[28px] font-normal text-center">
@@ -47,7 +47,7 @@ export const Features = () => {
         </div>
       </div>
 
-      <div className="mt-20 px-6 flex flex-col gap-12">
+      <div className="mt-20 px-6 flex flex-col gap-12 md:flex-row md:px-10 md:gap-[10px] md:mt-[100px]">
         {/* FEATURE 1 START */}
         <div className="flex flex-col items-center text-center gap-8">
           <div>

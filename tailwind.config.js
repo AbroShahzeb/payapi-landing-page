@@ -18,6 +18,7 @@ export default {
         "charm-pink": "hsl(337, 60%, 64%)",
         "light-san-juan-blue": "hsl(207, 16%, 50%)",
       },
+      transparent: "rgba(0, 0, 0, 0)",
     },
 
     extend: {
@@ -29,6 +30,9 @@ export default {
         "h3-sm": ["18px", { lineHeight: "25px" }],
         h4: ["24px", { lineHeight: "32px" }],
         "body-copy-1": ["15px", { lineHeight: "28px" }],
+      },
+      boxShadow: {
+        primaryBtnHover: "10px 10px 25px -10px rgba(54, 83, 107, 0.25)",
       },
     },
   },
