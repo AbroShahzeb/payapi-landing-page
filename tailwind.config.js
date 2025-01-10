@@ -19,16 +19,18 @@ export default {
         "light-san-juan-blue": "hsl(207, 16%, 50%)",
       },
     },
-    fontSize: {
-      "h1-lg": ["72px", { lineHeight: "72px" }],
-      "h1-sm": ["56px", { lineHeight: "56px" }],
-      h2: ["48px", { lineHeight: "56px" }],
-      "h3-lg": ["32px", { lineHeight: "40px" }],
-      "h3-sm": ["18px", { lineHeight: "25px" }],
-      h4: ["24px", { lineHeight: "32px" }],
-      "body-copy-1": ["15px", { lineHeight: "28px" }],
+
+    extend: {
+      fontSize: {
+        "h1-lg": ["72px", { lineHeight: "72px" }],
+        "h1-sm": ["56px", { lineHeight: "56px" }],
+        h2: ["48px", { lineHeight: "56px" }],
+        "h3-lg": ["32px", { lineHeight: "40px" }],
+        "h3-sm": ["18px", { lineHeight: "25px" }],
+        h4: ["24px", { lineHeight: "32px" }],
+        "body-copy-1": ["15px", { lineHeight: "28px" }],
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
