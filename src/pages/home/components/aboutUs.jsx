@@ -13,8 +13,8 @@ export const AboutUs = () => {
       {/* Circle Pattern */}
       <div className="w-[780px] h-[780px] rounded-full bg-secondary-san-juan-blue/20 absolute z-10 left-1/2 -translate-x-1/2 bottom-0 -translate-y-[calc(100%-100px)] md:-translate-y-1/2 lg:left-0 lg:top-0 lg:-translate-x-[200px] lg:-translate-y-[380px]"></div>
 
-      <div className="lg:max-w-[1110px] lg:mx-auto lg:flex lg:flex-row-reverse lg:items-center">
-        <div className="grid grid-cols-2 grid-rows-3 gap-12 relative z-20 lg:flex-1 lg:h-[103px] lg:gap-y-10 lg:grid-rows-2 lg:grid-cols-3">
+      <div className="lg:max-w-[1110px] lg:mx-auto lg:flex lg:flex-row-reverse lg:items-center xl:gap-[131px]">
+        <div className="grid grid-cols-2 grid-rows-3 gap-12 relative z-20 lg:flex-1 xl:h-[103px] xl:gap-y-10 xl:grid-rows-2 xl:grid-cols-3">
           <div className="text-primary-water-white md:flex md:justify-center">
             <LogoTesla />
           </div>
