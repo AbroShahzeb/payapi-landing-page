@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <header className="relative pb-20 md:pb-[100px] overflow-hidden">
       {/* Background Circle Effect */}
-      <div className="absolute w-[780px] h-[780px] md:w-[949px] md:h-[949px] left-1/2 -translate-x-1/2 bottom-0  -translate-y-[calc(100%-250px)] md:-translate-y-[calc(100%-500px)] lg:w-[780px] lg:h-[780px] lg:-translate-y-[calc(100%-650px)] lg:translate-x-[125px]">
+      <div className="absolute w-[780px] h-[780px] md:w-[949px] md:h-[949px] left-1/2 -translate-x-1/2 bottom-0  -translate-y-[calc(100%-250px)] md:-translate-y-[calc(100%-500px)] lg:w-[780px] lg:h-[780px] lg:-translate-y-[calc(100%-650px)] lg:translate-x-[125px] ">
         <img
           src={bgPatterCircle}
           alt="Background Circle Pattern"
@@ -21,7 +21,7 @@ export const Hero = () => {
 
       {/* Hero Section */}
       <div className="mt-8 flex flex-col gap-6 px-6 md:gap-0 lg:px-0 lg:gap-[100px] lg:flex-row-reverse lg:max-w-[1110px] lg:mx-auto relative z-40 lg:items-center ">
-        <div className="flex items-center justify-center mx-auto lg:mt-[74px] ">
+        <div className="flex items-center justify-center mx-auto lg:mt-[calc(74px+32px)] ">
           <img
             src={illustrationPhoneMockup}
             alt="Phone Mockup Illustration"
