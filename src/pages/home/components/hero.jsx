@@ -21,7 +21,7 @@ export const Hero = () => {
 
       {/* Hero Section */}
       <div className="mt-8 flex flex-col gap-6 px-6 md:gap-0 lg:px-0 lg:gap-[100px] lg:flex-row-reverse lg:max-w-[1110px] lg:mx-auto relative z-40 lg:items-center ">
-        <div className="flex items-center justify-center mx-auto lg:mt-[calc(74px+32px)] ">
+        <div className="flex items-center justify-center mx-auto lg:mt-[calc(74px+34px)] lg:ml-[20px]">
           <img
             src={illustrationPhoneMockup}
             alt="Phone Mockup Illustration"
