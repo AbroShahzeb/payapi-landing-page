@@ -47,7 +47,7 @@ export const PricingCard = ({ pricing }) => {
       {/* SEPARATOR */}
       <div className="w-full h-[1px] bg-secondary-san-juan-blue my-6"></div>
 
-      <div>
+      <div className="lg:w-full">
         <Button label="Request Access" variant="secondaryDark" />
       </div>
     </div>

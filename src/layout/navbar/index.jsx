@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-10 lg:pt-[45px] relative z-30 lg:max-w-[1110px] lg:mx-auto">
+    <nav className="flex items-center justify-between px-6 py-10 lg:pt-[45px] relative z-30 lg:max-w-[1110px] lg:mx-auto md:px-10">
       <Link className="lg:mr-16" to="/">
         <img src={logo} alt="PayAPI logo" />
       </Link>
