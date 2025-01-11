@@ -29,7 +29,7 @@ export const Hero = () => {
           />
         </div>
 
-        <div className="flex flex-col lg:items-start gap-6 md:gap-0 md:mt-12">
+        <div className="flex flex-col lg:items-start gap-6 md:gap-0 md:mt-12 lg:mt-16">
           <h1 className="text-[32px] leading-[36px] font-dm-serif text-center text-secondary-san-juan-blue md:text-[48px] lg:text-[72px] lg:leading-[72px] lg:tracking-[-0.554px] lg:text-left md:max-w-[537px] md:leading-[56px] md:tracking-[-0.369px] md:mx-auto">
             Start building with our APIs for absolutely free.
           </h1>
@@ -54,7 +54,7 @@ export const Hero = () => {
                 />
               </div>
             </div>
-            <p className="text-secondary-light-san-juan-blue text-body-copy-1 text-center lg:text-left">
+            <p className="text-secondary-light-san-juan-blue text-body-copy-1 text-center lg:text-left lg:ml-4">
               Have any question?{" "}
               <Link className="font-bold underline" to="/contact">
                 Contact Us
