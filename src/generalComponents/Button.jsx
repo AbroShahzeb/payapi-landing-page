@@ -9,7 +9,7 @@ export const Button = ({
 }) => {
   const variants = {
     primary:
-      "py-4 px-7 rounded-full bg-primary-pink text-[15px] text-primary-water-white font-bold tracking-[-0.115px] leading-normal hover:bg-[#DA6D97] hover:shadow-primaryBtnHover transition-all disabled:bg-[#BA4270]",
+      "py-4 px-7 rounded-full bg-primary-pink text-[15px] text-primary-water-white font-bold tracking-[-0.115px] leading-normal hover:bg-[#DA6D97] hover:shadow-primaryBtnHover transition-all disabled:bg-[#BA4270] lg:h-[48px] lg:flex lg:items-center lg:justify-center",
     secondaryLight:
       "py-4 px-7 rounded-full bg-[#1B262F] border border-primary-water-white text-[15px] text-primary-water-white font-bold tracking-[-0.115px] leading-normal hover:bg-primary-water-white hover:shadow-primaryBtnHover hover:text-[#1B262F] transition-all disabled:opacity-50",
     secondaryDark:

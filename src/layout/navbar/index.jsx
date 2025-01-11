@@ -8,7 +8,7 @@ import { useState } from "react";
 export const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
-    <nav className="flex items-center justify-between px-6 py-10 lg:pt-[40px] relative z-50 lg:max-w-[1110px] lg:mx-auto md:px-10 lg:px-0">
+    <nav className="flex items-center justify-between px-6 my-10 lg:mt-[40px] relative z-50 lg:max-w-[1110px] lg:mx-auto md:px-10 lg:px-0 lg:h-[48px]">
       <Link className="lg:mr-16" to="/">
         <img src={logo} alt="PayAPI logo" />
       </Link>
