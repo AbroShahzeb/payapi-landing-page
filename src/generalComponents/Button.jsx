@@ -5,6 +5,7 @@ export const Button = ({
   onClick,
   label,
   icon,
+  type = "button",
 }) => {
   const variants = {
     primary:
@@ -20,6 +21,7 @@ export const Button = ({
       className={`${variants[variant]} ${className}`}
       onClick={() => onClick && onClick()}
       disabled={disabled}
+      type={type}
     >
       {label && label}
       {icon && icon}
