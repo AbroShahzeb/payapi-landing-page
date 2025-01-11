@@ -141,7 +141,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="px-6 md:px-10">
+      <div className="md:px-10">
         <CTA />
       </div>
 

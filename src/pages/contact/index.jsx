@@ -64,7 +64,7 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="px-6 md:px-10 lg:px-0 lg:mt-20">
+      <div className="md:px-10 lg:px-0 lg:mt-20">
         <CTA />
       </div>
 
