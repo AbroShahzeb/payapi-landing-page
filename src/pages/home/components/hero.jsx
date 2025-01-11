@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <header className="relative pb-20 md:pb-[100px] overflow-hidden">
       {/* Background Circle Effect */}
-      <div className="absolute w-[780px] h-[780px] md:w-[949px] md:h-[949px] left-1/2 -translate-x-1/2 bottom-0  -translate-y-[calc(100%-250px)] md:-translate-y-[calc(100%-500px)] lg:w-[780px] lg:h-[780px] lg:-translate-y-[calc(100%-650px)] lg:translate-x-[125px] ">
+      <div className="absolute w-[780px] h-[780px] md:w-[949px] md:h-[949px] left-1/2 -translate-x-1/2 bottom-0  -translate-y-[calc(100%-250px)] md:-translate-y-[calc(100%-500px)] lg:w-[780px] lg:h-[780px] lg:-translate-y-[calc(100%-650px)] lg:translate-x-[150px] ">
         <img
           src={bgPatterCircle}
           alt="Background Circle Pattern"
@@ -34,7 +34,7 @@ export const Hero = () => {
             Start building with our APIs for absolutely free.
           </h1>
 
-          <div className="flex flex-col gap-4 md:mt-[22px] md:w-[445px] md:mx-auto lg:mx-0">
+          <div className="flex flex-col gap-4 md:mt-[62px] md:w-[445px] md:mx-auto lg:mx-0">
             <div className="flex flex-col gap-4 md:flex-row md:w-full md:relative md:h-[48px]">
               <input
                 type="text"
