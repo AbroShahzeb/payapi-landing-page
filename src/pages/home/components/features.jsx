@@ -9,7 +9,7 @@ export const Features = () => {
   return (
     <section className="py-20 pt-6 lg:py-[100px] lg:max-w-[1110px] lg:mx-auto">
       <div className="lg:flex lg:items-center lg:gap-[100px]">
-        <div className="md:w-[410px] md:mx-auto lg:flex-1">
+        <div className="md:w-[410px] md:mx-auto lg:flex-1 xl:-mt-[35px]">
           <img
             src={illustrationEasyToImplement}
             alt="Easy Implementation Illustration"
