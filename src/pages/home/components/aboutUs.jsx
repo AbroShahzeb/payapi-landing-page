@@ -5,6 +5,7 @@ import { LogoOracle } from "../../../assets/assetComponents/LogoOracle";
 import { LogoGoogle } from "../../../assets/assetComponents/LogoGoogle";
 import { LogoNvidia } from "../../../assets/assetComponents/LogoNvidia";
 import { Button } from "../../../generalComponents/Button";
+import { Link } from "react-router-dom";
 
 export const AboutUs = () => {
   return (
@@ -44,9 +45,9 @@ export const AboutUs = () => {
             developers with the tools they need to create easy and accessible
             experiences for their users.
           </p>
-          <div className="mt-[60px] md:mt-8">
+          <Link className="mt-[60px] md:mt-8" to="/about">
             <Button label={"About Us"} variant="secondaryLight" />
-          </div>
+          </Link>
         </div>
       </div>
     </section>

@@ -3,6 +3,7 @@ import illustrationSimpleUI from "../../../assets/home/desktop/illustration-simp
 import iconPersonalFinances from "../../../assets/home/desktop/icon-personal-finances.svg";
 import iconBankingAndCoverage from "../../../assets/home/desktop/icon-banking-and-coverage.svg";
 import iconConsumerPayments from "../../../assets/home/desktop/icon-consumer-payments.svg";
+import bgPatterCircle from "../../../assets/shared/desktop/bg-pattern-circle.svg";
 
 export const Features = () => {
   return (
@@ -27,8 +28,15 @@ export const Features = () => {
           </p>
         </div>
       </div>
-      <div className="mt-20 lg:flex lg:flex-row-reverse lg:items-center lg:gap-[100px]">
-        <div className="md:w-[400px] md:mx-auto lg:flex-1 lg:w-auto">
+      <div className="mt-20 lg:flex lg:flex-row-reverse lg:items-center lg:gap-[100px] relative">
+        <div className="hidden lg:block absolute w-[780px] h-[780px] top-1/2 -translate-y-1/2 z-10 translate-x-1/2">
+          <img
+            src={bgPatterCircle}
+            alt="Background Circle Pattern"
+            className="md:w-[949px] md:h-[949px] lg:w-[780px] lg:h-[780px] "
+          />
+        </div>
+        <div className="md:w-[400px] md:mx-auto lg:flex-1 lg:w-auto relative z-20">
           <img
             src={illustrationSimpleUI}
             alt="Simple UI Illustration"
@@ -36,7 +44,7 @@ export const Features = () => {
           />
         </div>
 
-        <div className="px-6 md:px-0 md:max-w-[573px] md:mx-auto lg:flex-1 ">
+        <div className="px-6 md:px-0 md:max-w-[573px] md:mx-auto lg:flex-1 relative z-20">
           <h2 className="text-[32px] leading-[36px]  md:text-[48px] md:leading-[56px] md:tracking-[-0.369px]  font-dm-serif text-center text-secondary-san-juan-blue lg:text-left">
             Simple UI & UX
           </h2>

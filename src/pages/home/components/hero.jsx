@@ -2,6 +2,7 @@ import { Navbar } from "../../../layout/navbar";
 import bgPatterCircle from "../../../assets/shared/desktop/bg-pattern-circle.svg";
 import illustrationPhoneMockup from "../../../assets/home/desktop/illustration-phone-mockup.svg";
 import { Button } from "../../../generalComponents/Button";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -20,7 +21,7 @@ export const Hero = () => {
 
       {/* Hero Section */}
       <div className="mt-8 flex flex-col gap-6 px-6 md:gap-0 lg:px-0 lg:gap-[100px] lg:flex-row-reverse lg:max-w-[1110px] lg:mx-auto relative z-40 lg:items-center ">
-        <div className="flex items-center justify-center mx-auto lg:mt-[74px]">
+        <div className="flex items-center justify-center mx-auto lg:mt-[74px] ">
           <img
             src={illustrationPhoneMockup}
             alt="Phone Mockup Illustration"
@@ -54,7 +55,10 @@ export const Hero = () => {
               </div>
             </div>
             <p className="text-secondary-light-san-juan-blue text-body-copy-1 text-center lg:text-left">
-              Have any question? <span className="font-bold">Contact Us</span>
+              Have any question?{" "}
+              <Link className="font-bold" to="/contact">
+                Contact Us
+              </Link>
             </p>
           </div>
         </div>
