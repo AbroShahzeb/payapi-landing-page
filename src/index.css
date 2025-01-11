@@ -35,3 +35,8 @@
     font-weight: 400;
   }
 }
+
+::selection {
+  background-color: hsla(337, 48%, 49%, 0.8);
+  color: hsl(220, 60%, 99%);
+}
